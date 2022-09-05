@@ -8,7 +8,7 @@ public class Example017074_정렬 {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		StringBuilder sb = new StringBuilder();
 		
-		int N = Integer.parseInt(br.readLine());	// 배열 크기
+		int N = Integer.parseInt(br.readLine());	// 배열 크기 
 		int[] arr = new int[N];
 		int[] dp = new int[N];
 		int result = 0;
